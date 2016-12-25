@@ -7,7 +7,7 @@
 class UlOutputter
   def output(fruits)
     puts '<ul>'
-    fruits.each_with_index do |fruit, index|
+    fruits.each do |fruit|
       puts "<li>#{fruit}</li>"
     end
     puts '</ul>'

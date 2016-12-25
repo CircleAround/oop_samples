@@ -5,7 +5,7 @@ str = "りんご:みかん,バナナ:いちご"
 # ULタグで出力する
 def output_ul(fruits)
   puts '<ul>'
-  fruits.each_with_index do |fruit, index|
+  fruits.each do |fruit|
     puts "<li>#{fruit}</li>"
   end
   puts '</ul>'

@@ -4,7 +4,7 @@ str = "りんご:みかん,バナナ:いちご"
 
 # ここの処理を作る
 puts '<ul>'
-str.split(/[,:]/).each_with_index do |fruit, index|
+str.split(/[,:]/).each do |fruit|
   puts "<li>#{fruit}</li>"
 end
 puts '</ul>'
